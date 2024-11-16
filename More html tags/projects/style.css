@@ -24,6 +24,9 @@ header h1 {
 
 .title {
     text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: #450652;
 }
 
 .preview-title {
@@ -33,24 +36,31 @@ header h1 {
 
 .preview {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
 .preview a {
     color: rgb(82, 21, 139);
+    margin: 15px;
+}
+
+.content-title {
+    /* margin-right: 50px; */
 }
 
 .preview a h4 {
-    margin-top: 2px;
-    margin-left: 90px;
+    margin-top: 5px;
+    /* margin-left: 70px; */
     font-size: 20px;
+    /* width: 50px; */
     
 }
 
 .waffles {
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 70px;
 }
 
 .waffle-title h3 {
@@ -104,15 +114,18 @@ header h1 {
     font-size: 16px;
 }
 
-.waffles li {
+.waffles li, p {
     margin-bottom: 10px;
+    font-size: 17px;
+    color: #450652;
 }
 
 
 
 .brownies {
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 70px;
 }
 
 .brownies-title h3 {
@@ -168,11 +181,14 @@ header h1 {
 
 .brownies li {
     margin-bottom: 10px;
+    font-size: 17px;
+    color: #450652;
 }
 
-.metballs {
-    margin-left: 70px;
-    margin-right: 70px;
+.meatballs {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 70px;
 }
 
 .meatballs-title h3 {
@@ -186,7 +202,7 @@ header h1 {
     font-family: cursive;
 }
 
-.waffle-title hr {
+.meatballs-title hr {
     /* display: flex;
     align-items: center;
     justify-content: center; */
@@ -214,7 +230,7 @@ header h1 {
     margin-right: 150px;
     padding: 5px;
     font-size: 16px;
-    
+    background-color: #aedbf5;
  
 }
 
@@ -228,4 +244,8 @@ header h1 {
 
 .meatballs li {
     margin-bottom: 10px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 17px;
+    color: #450652;
+
 }
