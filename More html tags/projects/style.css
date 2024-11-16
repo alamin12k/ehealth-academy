@@ -1,0 +1,231 @@
+
+* {
+    background-color: aliceblue;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(172, 208, 240);
+    padding: 7px;
+    margin-bottom: 50px;
+    margin-top: 1px;
+    
+}
+
+header h1 {
+    background-color: unset;
+    margin-left: 10px;
+    color: rgb(82, 21, 139);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title {
+    text-align: center;
+}
+
+.preview-title {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.preview {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.preview a {
+    color: rgb(82, 21, 139);
+}
+
+.preview a h4 {
+    margin-top: 2px;
+    margin-left: 90px;
+    font-size: 20px;
+    
+}
+
+.waffles {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.waffle-title h3 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(67, 15, 116);
+    margin-bottom: 1px;
+    /* border-bottom: dotted 4px rgb(101, 33, 165);
+    margin-right: 150px;
+    margin-left: 150px; */
+    font-family: cursive;
+}
+
+.waffle-title hr {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-top: 1px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border: none;
+    border-top: 4px dotted #450652;
+ 
+}
+
+.waffles img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.waffles table, tr, th, td {
+    border-collapse: collapse;
+    border: 2px dashed #259add;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 5px;
+    font-size: 16px;
+    
+ 
+}
+
+.waffles h4 {
+    text-align: center;
+    font-size: larger;
+    color: rgb(82, 21, 139);
+    text-decoration-line: underline;
+    font-size: 16px;
+}
+
+.waffles li {
+    margin-bottom: 10px;
+}
+
+
+
+.brownies {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.brownies-title h3 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(67, 15, 116);
+    margin-bottom: 1px;
+    /* border-bottom: dotted 4px rgb(101, 33, 165);
+    margin-right: 150px;
+    margin-left: 150px; */
+    font-family: cursive;
+}
+
+.brownies-title hr {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-top: 1px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border: none;
+    border-top: 4px dotted #450652;
+ 
+}
+
+.brownies img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.brownies table, tr, th, td {
+    border-collapse: collapse;
+    border: 2px dashed #259add;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 5px;
+    font-size: 16px;
+    
+ 
+}
+
+.brownies h4 {
+    text-align: center;
+    font-size: larger;
+    color: rgb(82, 21, 139);
+    text-decoration-line: underline;
+    font-size: 16px;
+}
+
+.brownies li {
+    margin-bottom: 10px;
+}
+
+.metballs {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.meatballs-title h3 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(67, 15, 116);
+    margin-bottom: 1px;
+    /* border-bottom: dotted 4px rgb(101, 33, 165);
+    margin-right: 150px;
+    margin-left: 150px; */
+    font-family: cursive;
+}
+
+.waffle-title hr {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-top: 1px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border: none;
+    border-top: 4px dotted #450652;
+ 
+}
+
+.meatballs img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.meatballs table, tr, th, td {
+    border-collapse: collapse;
+    border: 2px dashed #259add;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 5px;
+    font-size: 16px;
+    
+ 
+}
+
+.meatballs h4 {
+    text-align: center;
+    font-size: larger;
+    color: rgb(82, 21, 139);
+    text-decoration-line: underline;
+    font-size: 16px;
+}
+
+.meatballs li {
+    margin-bottom: 10px;
+}
