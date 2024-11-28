@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge: Function</title>
+    <style>
+        .card {
+            background-color: teal;
+            margin-left: 200px;
+            margin-right: 200px;
+            margin-top: 150px;
+        }
+
+        .container h4 {
+            text-align: center;
+        }
+
+        .container button {
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="container">
+            <h4>Switch Background Color</h4>
+            <button onclick="color()">Click Me!!!</button>
+        </div>
+    </div>
+
+    <script>
+        function color() {
+            document.body.style.backgroundColor = "blue";
+        };
+    </script>
+
+</body>
+</html>
