@@ -1,4 +1,8 @@
 
+body {
+    background-color: aliceblue;
+}
+
 .container {
     background-color: cadetblue;
     margin-left: 200px;
@@ -10,4 +14,18 @@
 
 .card {
     margin: auto;
+}
+
+#dob {
+    background-color: rgb(178, 206, 231);
+}
+
+#sbutton {
+    background-color: rgb(133, 160, 184);
+}
+
+#result {
+    background-color: rgb(155, 199, 238);
+    padding: 2px;
+    font-family: monospace;
 }
